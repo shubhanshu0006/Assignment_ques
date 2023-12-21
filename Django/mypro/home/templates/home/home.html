@@ -113,6 +113,12 @@
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+    <ul>
+      {% for link in links %}
+
+      <a href="{{link}}">{{link}}</a>
+      {% endfor %}
+    </ul>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
