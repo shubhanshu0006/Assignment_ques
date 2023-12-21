@@ -1,0 +1,7 @@
+myenv/
+
+*.pyc
+
+.env
+
+db.sqlite3
